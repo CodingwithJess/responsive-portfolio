@@ -1,5 +1,5 @@
 /* Main Header styling with image background and white font */
-.header {
+.name {
   text-align: center;
   height: 100px;
   background-image: url(white-sky-1040473-3.jpg);
@@ -10,7 +10,7 @@
   font-family: "Cookie", cursive;
 }
 
-h1 {
+header {
   font-size: 38px;
   font-family: "Raleway", sans-serif;
   color: #654283;
