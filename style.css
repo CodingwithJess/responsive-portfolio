@@ -1,0 +1,10 @@
+.header {
+    text-align: center;
+    height: 100px;
+    background-image: url(white-sky-1040473-3.jpg); 
+    background-size: cover;
+    color: white;
+    padding: 10px;
+    font-size: 58px;
+    font-family: 'Cookie', cursive; 
+}
