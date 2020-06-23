@@ -9,18 +9,23 @@
   font-size: 58px;
   font-family: "Cookie", cursive;
 }
-
+/* Header styling */
 header {
   font-size: 38px;
   font-family: "Raleway", sans-serif;
   color: #654283;
 }
-
+/* paragraph styling */
 p {
   font-size: 16px;
   font-family: "Raleway", sans-serif;
   color: #5c3c4b;
 }
 
-.container {
+.bg-light {
+  background-color: #d69fa6!important;
+}
+
+.navbar-nav{
+  float: none;
 }
