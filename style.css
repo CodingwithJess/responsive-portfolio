@@ -33,20 +33,25 @@ p {
 img, {
   padding:10px
 }
-
+/* background photo in footer with white text */
 footer{
   background-image: url(white-sky-1040473-3.jpg);
   background-size: cover;
   font-family: "Raleway", sans-serif;
   color: white;
   text-align: center;
-  padding: 20px;
-  width: 100%;
   position: absolute;
+  width: 100%;
+  height: 80px;
+ 
 }
-
+/* centered nav bar */
 .navCenter {
   display: flex;
   justify-content: center;
   background-color:#d69fa6;
+}
+
+form {
+  padding: 40px;
 }
