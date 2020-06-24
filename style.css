@@ -35,8 +35,14 @@ img, {
 }
 
 footer{
-  background-color: #d69fa6;
+  background-image: url(white-sky-1040473-3.jpg);
+  background-size: cover;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  text-align: center;
   padding: 20px;
+  width: 100%;
+  position: absolute;
 }
 
 .navCenter {
