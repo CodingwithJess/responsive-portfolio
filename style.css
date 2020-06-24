@@ -21,16 +21,26 @@ p {
   font-family: "Raleway", sans-serif;
   color: #5c3c4b;
 }
-
+/* navbar color */
 .bg-light {
   background-color: #d69fa6 !important;
 }
-
-.navbar-nav {
-  float: none;
-}
-
+/*form background*/
 .container {
   background-color: whitesmoke;
   padding: 30px;
+}
+img, {
+  padding:10px
+}
+
+footer{
+  background-color: #d69fa6;
+  padding: 20px;
+}
+
+.navCenter {
+  display: flex;
+  justify-content: center;
+  background-color:#d69fa6;
 }
