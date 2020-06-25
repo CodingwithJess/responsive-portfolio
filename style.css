@@ -11,6 +11,7 @@
 }
 /* Header styling */
 header {
+  text-align: center;
   font-size: 38px;
   font-family: "Raleway", sans-serif;
   color: #654283;
@@ -59,6 +60,7 @@ footer {
 
 form {
   padding: 40px;
+  align-self: center;
 }
 
 .btn-outline-info {
