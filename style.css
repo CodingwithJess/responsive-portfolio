@@ -32,18 +32,24 @@ p {
 }
 img {
   padding: 10px;
+  margin: auto;
+  display: block;
 }
 /* background photo in footer with white text */
 footer {
   background-image: url(white-sky-1040473-3.jpg);
   background-size: cover;
   font-family: "Raleway", sans-serif;
-  color: white;
   text-align: center;
   position: absolute;
   width: 100%;
   height: 80px;
 }
+.text-muted, .container{
+  color: white!important;
+  background: transparent;
+}
+
 /* centered nav bar */
 .navCenter {
   display: flex;
@@ -57,5 +63,5 @@ form {
 
 .btn-outline-info {
   color: #5c3c4b;
-  border-color: #5c3c4b
+  border-color: #5c3c4b;
 }
