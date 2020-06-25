@@ -1,69 +1,69 @@
-/* Main Header styling with image background and white font */
 .name {
-  text-align: center;
-  height: 100px;
-  background-image: url(white-sky-1040473-3.jpg);
-  background-size: cover;
-  color: white;
-  padding: 10px;
-  font-size: 58px;
-  font-family: "Cookie", cursive;
-}
-/* Header styling */
-header {
-  text-align: center;
-  font-size: 38px;
-  font-family: "Raleway", sans-serif;
-  color: #654283;
-}
-/* paragraph styling */
-p {
-  font-size: 16px;
-  font-family: "Raleway", sans-serif;
-  color: #5c3c4b;
-}
-/* navbar color */
-.bg-light {
-  background-color: #d69fa6 !important;
-}
-/*form background*/
-.container {
-  background-color: whitesmoke;
-  padding: 30px;
-}
-img {
-  padding: 10px;
-  margin: auto;
-  display: block;
-}
-/* background photo in footer with white text */
-footer {
-  background-image: url(white-sky-1040473-3.jpg);
-  background-size: cover;
-  font-family: "Raleway", sans-serif;
-  text-align: center;
-  position: absolute;
-  width: 100%;
-  height: 80px;
-}
-.text-muted, .container{
-  color: white!important;
-  background: transparent;
-}
-
-/* centered nav bar */
-.navCenter {
-  display: flex;
-  justify-content: center;
-  background-color: #d69fa6;
-}
-
-form {
-  padding: 40px;
-  align-self: center;
-}
-
-.btn-outline-info {
-  color: #5c3c4b;
-  border-color: #5c3c4b;
-}
+  text-align:center;
+  height:100px;
+  background-image:url(white-sky-1040473-3.jpg);
+  background-size:cover;
+  color:#FFF;
+  font-size:58px;
+  font-family:Cookie, cursive;
+  padding:10px;
+  }
+  
+  header {
+  text-align:center;
+  font-size:38px;
+  font-family:Raleway, sans-serif;
+  color:#654283;
+  }
+  
+  p {
+  font-size:16px;
+  font-family:Raleway, sans-serif;
+  color:#5c3c4b;
+  }
+  
+  .bg-light {
+  background-color:#d69fa6!important;
+  }
+  
+  .container {
+  background-color:#F5F5F5;
+  padding:30px;
+  }
+  
+  img {
+  display:block;
+  margin:auto;
+  padding:10px;
+  }
+  
+  footer {
+  background-image:url(white-sky-1040473-3.jpg);
+  background-size:cover;
+  font-family:Raleway, sans-serif;
+  text-align:center;
+  position:absolute;
+  width:100%;
+  height:80px;
+  }
+  
+  .text-muted,.container {
+  color:#FFF!important;
+  background:transparent;
+  }
+  
+  .navCenter {
+  display:flex;
+  justify-content:center;
+  background-color:#d69fa6;
+  }
+  
+  form {
+  align-self:center;
+  padding:40px;
+  }
+  
+  .btn-outline-info {
+  color:#5c3c4b;
+  border-color:#5c3c4b;
+  }
