@@ -8,6 +8,10 @@
   font-family:Cookie, cursive;
   padding:10px;
   }
+
+  .fab{
+    color: #fff;
+  }
   
   header {
   text-align:center;
@@ -66,4 +70,20 @@
   .btn-outline-info {
   color:#5c3c4b;
   border-color:#5c3c4b;
+  }
+
+  .card {
+    padding: 15px;
+    margin: 10px;
+  }
+
+  .btn {
+    background-color: #654283;
+    border-color: transparent;
+    margin: 2px;
+  }
+
+  .btn-primary:hover{
+    border-color: #d69fa6;
+    background-color:#d69fa6;
   }
