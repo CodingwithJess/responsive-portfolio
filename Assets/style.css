@@ -124,3 +124,8 @@
   .contact-info {
     text-align: center;
   }
+
+  p{
+    width: 50%;
+    position: relative;
+  }
