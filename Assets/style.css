@@ -1,6 +1,6 @@
 .name {
   text-align:center;
-  height:100px;
+  height:150px;
   background-image:url(white-sky-1040473-3.jpg);
   background-size:cover;
   color:#FFF;
@@ -9,11 +9,15 @@
   padding:10px;
   }
 
-  .fab{
+  .logo{
     color: #fff;
+    margin: 15px;
   }
   
   header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   text-align:center;
   font-size:38px;
   font-family:Raleway, sans-serif;
@@ -78,6 +82,7 @@
   }
 
   .btn {
+    color: white;
     background-color: #654283;
     border-color: transparent;
     margin: 2px;
@@ -86,4 +91,32 @@
   .btn-primary:hover{
     border-color: #d69fa6;
     background-color:#d69fa6;
+  }
+
+  .fab:hover {
+    transition: 0.80s;
+    -webkit-transition: 0.80s;
+    -moz-transition: 0.80s;
+    -ms-transition: 0.80s;
+    -o-transition: 0.80s;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  } 
+
+  .aboutme {
+    border-radius: 50%;
+  }
+
+  .aboutmeinfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .portfolio-cards {
+    display: flex;
+    justify-content: center;
   }
