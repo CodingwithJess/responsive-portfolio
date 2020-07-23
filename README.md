@@ -20,10 +20,7 @@ https://codingwithjess.github.io/responsive-portfolio/index.html
 
 ## Images of deployed site
 ![About](Assets/AboutMePreview.png?raw=true "About")
-<<<<<<< HEAD
-![Portfolio](Assets/PortfolioPreview.png    ?raw=true "Portfolio")
-![Contact](Assets/ContactPreview.png?raw=true "Contact")
-=======
 ![Portfolio](Assets/PortfolioPreview.png?raw=true "Portfolio")
 ![Contact](Assets/ContactPreview.png?raw=true "Contact")
->>>>>>> 5ef083130d9596c2f04d2fb2eb093f9a7a459074
+
+
