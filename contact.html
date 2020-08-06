@@ -1,109 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- external bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"/>
-    <!--FontAwesome-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
-    <!-- personal style sheet -->
-    <link rel="stylesheet" type="text/css" href="Assets/style.css" />
-    <!--font link -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cookie&family=Raleway&display=swap" rel="stylesheet"/>
-    <title>Jessica Edens-Contact Info</title>
-  </head>
 
-  <body>
-    <header class="name">
-      <a href="https://github.com/CodingwithJess" target="_blank"><i class="logo fab fa-github fa-sm"></i></a>
-      Jessica Edens 
-      <a href="https://www.linkedin.com/in/edens-jessica/" target="_blank"><i class="logo fab fa-linkedin fa-sm"></i></a>
-    </header>
-    <!-- nav bar -->
-    <div class="navCenter">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light text-center">
-        <button class="navbar-toggler"type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- external bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <!--FontAwesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+    integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous" />
+  <!-- personal style sheet -->
+  <link rel="stylesheet" type="text/css" href="Assets/style.css" />
+  <!--GoogleFont link -->
+  <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Raleway&display=swap" rel="stylesheet" />
+  <title>Jessica Edens-Contact Info</title>
+</head>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <a class="nav-link" href="index.html"><button type="button" class="btn btn-outline-light">About</button></a>
-            <a class="nav-link" href="portfolio.html"><button type="button" class="btn btn-outline-light">Portfolio</button></a>
-            <a class="nav-link" href="contact.html"><button type="button" class="btn btn-outline-light">Contact</button></a>
-          </ul>
-        </div>
-      </nav>
-    </div>
+<body>
+  <!-- header -->
+  <header class="name">
+    <a href="https://github.com/CodingwithJess" target="_blank"><i class="logo fab fa-github fa-sm"></i></a>
+    Jessica Edens
+    <a href="https://www.linkedin.com/in/edens-jessica/" target="_blank"><i class="logo fab fa-linkedin fa-sm"></i></a>
+  </header>
+  <!-- nav bar -->
+  <div class="navCenter">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light text-center">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span
+          class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <a class="nav-link" href="index.html"><button type="button" class="btn btn-outline-light">About</button></a>
+          <a class="nav-link" href="portfolio.html"><button type="button"
+              class="btn btn-outline-light">Portfolio</button></a>
+          <a class="nav-link" href="contact.html"><button type="button"
+              class="btn btn-outline-light">Contact</button></a>
+        </ul>
+      </div>
+    </nav>
+  </div>
 
-    <!-- main container -->
-    <div class="container">
-      <div class="row">
+  <!-- main container -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <header>Contact</header>
+        <hr />
         <div class="col-md-12">
-          <header>Contact</header>
-          <hr />
-          <div class="col-md-12">
-            <!-- contact form -->
-            <form
-              id="contactForm"
-              action="https://formspree.io/mnqgzevg"
-              method="POST"
-            >
-              <div class="Name">
-                <label for="exampleFormControlInput1">Name:</label>
-                <input
-                  type="text"
-                  name="From"
-                  class="form-control"
-                  id="exampleFormControlInput1"
-                  placeholder="John Doe"
-                />
-              </div>
-              <div class="Email">
-                <label for="exampleFormControlInput2">Email:</label>
-                <input
-                  type="email"
-                  name="replyto"
-                  class="form-control"
-                  id="exampleFormControlInput2"
-                  placeholder="name@example.com"
-                />
-              </div>
-              <div class="Message">
-                <label for="exampleFormControlTextarea1">Message:</label>
-                <textarea
-                  class="form-control"
-                  name="message"
-                  id="exampleFormControlTextarea1"
-                  rows="3"
-                ></textarea>
-              </div>
-              <!--submit button -->
-              <br />
-              <button type="submit" class="btn btn-outline-info">Submit</button>
-            </form>
-            <hr>
-            <div class="contact-info">
-            <p><i class="far fa-envelope puppy"></i> <a href="mailto:thejessiebess@gmail.com"> thejessiebess@gmail.com</a></p>
-            <p><i class="fas fa-phone-alt puppy"></i> 303.905.5419</p>
-            <a id= "resume" href="https://drive.google.com/file/d/1UUzAffOcH4SrpbsJfu2Ns712H5N_O8fw/view?usp=sharing" target="_blank"><i class="far fa-file"></i> Resume</a>
+          <!-- contact form -->
+          <form id="contactForm" action="https://formspree.io/mnqgzevg" method="POST">
+            <div class="Name">
+              <label for="exampleFormControlInput1">Name:</label>
+              <input type="text" name="From" class="form-control" id="namefield" placeholder="What's your name?" />
             </div>
-          </div>
+            <div class="Email">
+              <label for="exampleFormControlInput2">Email:</label>
+              <input type="email" name="replyto" class="form-control" id="emailfield" placeholder="name@example.com" />
+            </div>
+            <div class="Message">
+              <label for="exampleFormControlTextarea1">Message:</label>
+              <textarea class="form-control" name="message" id="messagefield" placeholder="Message"
+                rows="3"></textarea>
+            </div>
+
+            <!--submit button -->
+
+            <button type="submit" class="btn btn-primary" data-toggle="modal"
+              data-target="#exampleModalCenter">Submit</button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+              aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Thank you for contacting me! I will be in touch shortly.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </form>
+          <hr>
+          <div class="contact-info">
+            <p><i class="far fa-envelope puppy"></i> <a href="mailto:thejessiebess@gmail.com">
+                thejessiebess@gmail.com</a></p>
+            <p><i class="fas fa-phone-alt puppy"></i> 303.905.5419</p>
+            <a id="resume" href="https://drive.google.com/file/d/1UUzAffOcH4SrpbsJfu2Ns712H5N_O8fw/view?usp=sharing"
+              target="_blank"><i class="far fa-file"></i> Resume</a>
           </div>
         </div>
       </div>
     </div>
+  </div>
+  </div>
 
-    <footer class="footer">
-      <div class="container">
-        <span class="text-muted">© Copyright</span>
-      </div>
-    </footer>
+  <footer class="footer">
+    <div class="container">
+      <span class="text-muted">© Copyright</span>
+    </div>
+  </footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
 </html>
